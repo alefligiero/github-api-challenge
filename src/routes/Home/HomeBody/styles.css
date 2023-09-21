@@ -1,0 +1,19 @@
+.home-section {
+    margin-left: 41px;
+}
+
+.home-container {
+    margin: 27px 0;
+}
+
+.home-section h2 {
+    color: var(--color-font-primary);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.home-section h4 {
+    color: var(--color-font-tertiary);
+    font-size: 24px;
+    font-weight: 700;
+}
