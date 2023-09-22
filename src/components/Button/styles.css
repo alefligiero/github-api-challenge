@@ -1,4 +1,5 @@
 .btn {
+    border: 0;
     background-color: var(--color-bg-secundary);
     width: 101px;
     height: 40px;
