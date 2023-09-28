@@ -31,6 +31,18 @@ export default function Search() {
           </form>
         </div>
       </section>
+      <section className="result-section">
+        <div className="result-card">
+          <img src="" alt="perfil" />
+          <div className="information-card">
+            <h3>Informações</h3>
+            <div className="information-card-item">Perfil:</div>
+            <div className="information-card-item">Seguidores:</div>
+            <div className="information-card-item">Localidade: </div>
+            <div className="information-card-item">Nome: </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
