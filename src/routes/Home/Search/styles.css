@@ -1,14 +1,14 @@
 section {
     display: flex;
-    margin-top: 54px;
     justify-content: center;
+    margin: 54px 99px 0px 90px;
 }
 
 .search-card {
     display: flex;
     flex-direction: column;
     background-color: var(--color-bg-tertiary);
-    width: 1251px;
+    width: 100%;
     height: 270px;
     border-radius: 16px;
     padding: 54px 31px;
@@ -42,7 +42,7 @@ section {
 .result-card {
     display: flex;
     background-color: var(--color-bg-quartenary);
-    width: 1251px;
+    width: 100%;
     height: 334px;
     border-radius: 8px;
     padding: 43px 35px 44px 38px;
@@ -51,7 +51,7 @@ section {
 .result-card img {
     width: 247px;
     height: 247px;
-    margin-left: 29px;
+    margin-right: 29px;
 }
 
 .information-card {
@@ -82,5 +82,9 @@ section {
     height: 40px;
     color: var(--color-font-sexnary);
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
+}
+
+.display-none {
+    display: none;
 }
